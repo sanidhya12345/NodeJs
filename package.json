@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "My first Node JS Program",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanidhya12345/NodeJs.git"
+  },
+  "author": "Sanidhya Varshney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanidhya12345/NodeJs/issues"
+  },
+  "homepage": "https://github.com/sanidhya12345/NodeJs#readme"
+}
