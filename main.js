@@ -16,3 +16,29 @@ const arraysum=((array)=>{
 })
 const array=[1,2,3,4,5,6];
 console.log(arraysum(array))
+
+//File System Module:-
+//Asynchronous read
+const fs=require('fs')
+fs.readFile(__dirname+'/read.txt','utf-8',(err,res)=>{
+    if(err) throw err;
+    console.log(res.toString())
+})
+
+//Synchronous read:-
+
+try{
+    const data=fs.readFileSync(__dirname+'/read.txt','utf-8');
+    console.log(data.toString())
+}catch(e){
+    console.log(e);
+}
+
+//Delete the file using unlink:-
+
+fs.unlink(__dirname+'/read.txt',(err)=>{
+    if(err){
+        throw "Error:- "+err;
+    }
+    console.log("File Deleted Successfully!!!!");
+})
