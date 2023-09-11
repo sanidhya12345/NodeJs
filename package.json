@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/sanidhya12345/NodeJs/issues"
   },
-  "homepage": "https://github.com/sanidhya12345/NodeJs#readme"
+  "homepage": "https://github.com/sanidhya12345/NodeJs#readme",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "qr-image": "^3.2.0"
+  }
 }
